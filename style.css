@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0%;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+#main{
+    display: flex;
+    justify-content:space-between;
+}
+.con img{
+    overflow-y: hidden;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    object-position:top;
+    /* visibility: hidden; */
+    margin: 0px 5px;
+    transition: all linear 3s;
+}
+#fixed-img{
+    object-fit:cover;
+    object-position: 40%;
+}
+.con #ui{
+    object-fit:cover;
+    object-position: center 20%;
+    
+}
+.con #pix{
+    object-fit:cover;
+    object-position: center 30%;
+    
+}
+.con #po{
+    object-fit:cover;
+    object-position: center 20%;
+
+}
+.arrow{
+    position: absolute;
+    z-index: 100;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50% 0);
+    position: fixed;
+}
+.arrow i{
+    width: 500px;
+    height: 500px;
+}
+.arrow button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.con .innerText h1{
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+.con .innerText {
+    padding-left:40px ;
+    position: absolute;
+    bottom: 8.5rem;
+    
+}
+.con .innerText p{
+    width: 37.6vw;
+    /* border-top: 5px solid azure; */
+    padding: 10px 5px;
+    text-align: center;
+    display: block;
+}
+.con .azure1{
+    color: azure;
+    z-index: 102;
+    border-bottom: 5px solid azure;
+}
+.con .azure{
+    color: azure;
+    z-index: 102;
+}
+.con .black{
+    color: black;
+    z-index: 103;
+}
+.con .black1{
+    color: black;
+    z-index: 102;
+    border-bottom: 5px solid #333;
+}
